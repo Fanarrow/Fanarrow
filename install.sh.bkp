@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+pkg install ffmpeg -y && pkg install tesseract -y && pkg install wget -y
+
+echo "[*] All dependencies have been installed, please run the command \"npm start\" to immediately start the script"
