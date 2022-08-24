@@ -1,0 +1,300 @@
+⛩HOSPEDAGEM NO HEROKU ATUALIZADO⛩
+
+
+git clone https://github.com/rafael-bot-fox/bot-fox.git
+
+
+
+💎LINK DO ARQUIVO CASO SEU BOT NÃO TENHA💎!
+
+
+https://www.mediafire.com/file/79jftlt7skfn4k1/hospedar.sh/file
+
+
+
+
+
+CASO NÃO TENHA SUA CONTA DO HEROKU, CRIE AQUI NESSE LINK:
+
+
+https://signup.heroku.com/login
+
+
+
+heroku login
+
+
+🀄1° COMANDO🀄
+
+
+npm i -g npm@6 && npm i heroku -g
+
+
+
+
+🎗2°COMANDO🎗
+
+
+termux-setup-storage 
+
+
+
+
+🥡3° COMANDO🥡
+
+
+cd /sdcard/NOME-DA-PASTA
+
+
+
+
+
+💖4° COMANDO💖
+
+
+
+
+  sh hospedar.sh
+
+
+
+
+Se quiser atualizar o bot para o site, se você efetuou alguma edição, são simples mente esse comando🎠.
+
+
+ 
+cd /sdcard/NOME-DA-PASTA
+
+
+
+
+sh heroku.sh
+
+
+
+
+[18/8 21:51] 𝕭𝖗𝖚𝖈𝖊: cd /sdcard/pastadobot
+
+[18/8 21:51] 𝕭𝖗𝖚𝖈𝖊: É para deletar mesmo mas não apaga a pasta .git
+
+[18/8 21:51] 𝕭𝖗𝖚𝖈𝖊: rm -rf .git
+
+[18/8 21:51] 𝕭𝖗𝖚𝖈𝖊: git init
+
+[18/8 21:51] 𝕭𝖗𝖚𝖈𝖊: heroku git:remote -a Seuapp
+
+[18/8 21:51] 𝕭𝖗𝖚𝖈𝖊: git config --global --add safe.directory /storage/emulated/0/pastadobot
+
+[18/8 21:51] 𝕭𝖗𝖚𝖈𝖊: git add .
+
+[18/8 21:51] 𝕭𝖗𝖚𝖈𝖊: git commit -am "blabla"
+
+[18/8 21:51] 𝕭𝖗𝖚𝖈𝖊: git push heroku master
+
+GitHub Deploy
+
+
+
+
+gh auth login
+
+rm -fr .git
+
+
+
+
+git init
+
+git status
+
+git remote add origin (url.git)
+
+git remote -v
+
+git config --global --add safe.directory /storage/emulated/0/NomeDaPasta
+
+git fetch
+
+git pull
+
+git reset --mixed origin/master
+
+git branch --set-upstream-to=origin/master master
+
+git status
+
+git add .
+
+git status
+
+git commit -m "First commit"
+
+git push origin master
+
+
+
+Em Caso De Erro 
+
+
+
+find .git/objects/ -size 0 -exec rm -f {} \;
+
+git fetch origin
+
+
+
+find .git/objects/ -type f -empty | xargs rm
+
+git fetch -p
+
+
+
+git fsck --full
+
+
+
+🔥
+
+
+﻿COMANDOS INICIAS DO TERMUX🎖
+
+
+LEMBRE-SE. UM DE CADA VEZ! PACIÊNCIA😌🇧🇷❤❤❤
+⏤⏤⏤⏤⏤⏤ 签🇧🇷签 ⏤⏤⏤⏤⏤⏤
+
+
+PRIMEIRO COMANDO🔥....
+
+
+
+
+pkg upgrade -y && pkg update -y && pkg install git -y && pkg install nodejs -y && pkg install nodejs-lts -y
+
+
+
+⏤⏤⏤⏤⏤⏤ 签🇧🇷签 ⏤⏤⏤⏤⏤⏤
+
+
+SEGUNDO COMANDO🥂.... 
+
+
+
+          termux-setup-storage
+
+
+
+
+⏤⏤⏤⏤⏤⏤ 签🇧🇷签 ⏤⏤⏤⏤⏤⏤
+
+
+TERCEIRO COMANDO💎..
+
+
+
+cd /sdcard/PASTADOBOT
+
+
+ou
+
+
+cd /sdcard/download/
+
+
+
+
+⏤⏤⏤⏤⏤⏤ 签🇧🇷签 ⏤⏤⏤⏤⏤⏤
+
+
+QUARTO COMANDO🦄....
+
+
+
+pkg install ffmpeg -y && pkg install tesseract -y && pkg install python -y
+
+
+
+⏤⏤⏤⏤⏤⏤ 签🇧🇷签 ⏤⏤⏤⏤⏤⏤
+
+
+QUINTO COMANDO🔰....
+
+
+
+pkg install ffmpeg -y && pkg install wget -y
+
+
+
+
+⏤⏤⏤⏤⏤⏤ 签🇧🇷签 ⏤⏤⏤⏤⏤⏤
+
+
+CHAVE PRA LIGAR O BOT😍...
+
+
+
+                    sh start.sh
+
+
+
+.....................................................
+
+
+Quando fechar o termux, para ligar, é só abrir o termux novamente, e da esses 2 comandos:
+
+
+cd /sdcard/PASTADOBOT
+
+
+
+sh start.sh
+
+
+Somente isso.
+
+
+
+
+- - - - - - - - - - -
+
+
+
+
+Quiser gerar outro qrcode pra conectar o bot em outro whatsapp ou apagou o whatsapp, algum problema ocorrido no número, apaga o arquivo que está dentro da pasta do bot arquivo chamado
+
+
+baileys_store_multi.json
+
+
+Apaga ele, e liga o bot novamente através do comando a cima
+
+
+A pasta bot está dentro do seu armazenamento interno, do celular
+
+
+cd = puxar tal arquivo do diretório destinado. 
+
+
+/ = barreira entre pasta 
+
+
+Por exemplo 
+
+
+cd /sdcard/PASTADOBOT
+
+
+sdcard = armazenamento interno
+
+
+Obrigado pela compreensão.
+
+
+
+
+   FIM..
+
+
+
+
+
+
