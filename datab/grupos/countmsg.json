@@ -1,0 +1,57 @@
+[
+  {
+    "groupId": "120363024940602906@g.us",
+    "numbers": [
+      {
+        "id": "558491262897@s.whatsapp.net",
+        "messages": 5,
+        "cmd_messages": 0
+      },
+      {
+        "id": "559491564211@s.whatsapp.net",
+        "messages": 2,
+        "cmd_messages": 0
+      },
+      {
+        "id": "5521936184063@s.whatsapp.net",
+        "messages": 17,
+        "cmd_messages": 17
+      }
+    ]
+  },
+  {
+    "groupId": "120363025003532200@g.us",
+    "numbers": [
+      {
+        "id": "556492037896@s.whatsapp.net",
+        "messages": 5,
+        "cmd_messages": 0
+      },
+      {
+        "id": "556181531621@s.whatsapp.net",
+        "messages": 1,
+        "cmd_messages": 0
+      },
+      {
+        "id": "558881521564@s.whatsapp.net",
+        "messages": 1,
+        "cmd_messages": 0
+      },
+      {
+        "id": "18258056062@s.whatsapp.net",
+        "messages": 1,
+        "cmd_messages": 0
+      }
+    ]
+  },
+  {
+    "groupId": "120363024228278559@g.us",
+    "numbers": [
+      {
+        "id": "5521936184063@s.whatsapp.net",
+        "messages": 5,
+        "cmd_messages": 4
+      }
+    ]
+  }
+]
